@@ -1,1 +1,1 @@
-Use `ln` to use the files from the dot files project
+Use `ln -s <dotfile> ~/<dotfile>` to use the files from the repo.
