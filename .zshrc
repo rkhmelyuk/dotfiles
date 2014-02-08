@@ -67,3 +67,11 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ru
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+# custom
+
+alias ls='ls -GF'
+alias ll='ls -ahl'
+alias pwgen='openssl rand -base64 10'
+
+export PATH=$PATH:~/bin:/usr/local/share/npm/bin
+
